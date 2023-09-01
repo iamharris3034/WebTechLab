@@ -1,0 +1,41 @@
+/* Style for the body */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: large;
+    background-color: rgb(101, 57, 57);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style for the h1 header */
+h1 {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Style for the image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Style for the map */
+map {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Style for the areas within the map */
+area {
+    outline: none;
+}
+
+/* Style for the hover effect on areas */
+area:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
